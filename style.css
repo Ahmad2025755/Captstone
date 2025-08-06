@@ -1,0 +1,36 @@
+body {
+
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.TopNav {
+
+    overflow: hidden;
+    background-color: greenyellow;
+
+}
+
+.TopNav > a {
+
+    float: left;
+    color: deeppink;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.TopNav > a:hover {
+
+    background-color: blueviolet;
+    color: white;
+}
+
+.TopNav > a.active {
+
+background-color: darkcyan;
+color: white;
+}
+
