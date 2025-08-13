@@ -1,0 +1,44 @@
+Button {
+
+    height: 50px;
+    width: 50;
+    font-size: 25px;
+}
+
+nav {
+
+    background-color: lightblue;
+}
+
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+}
+
+li {
+
+    float: left;
+}
+
+li a {
+    
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+li a:hover {
+
+    background-color: rgb(255, 0, 0);
+}
+.Aboutme-info {
+
+    font-size: 10px;
+}
+
