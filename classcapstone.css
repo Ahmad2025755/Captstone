@@ -1,3 +1,42 @@
+/*Section CSS*/
+
+.pimg3 {
+
+    position: relative;
+    opacity: 0.8;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('Screenshot\ 2025-08-13\ 145633.png') ;
+    min-height: 400px;
+}
+
+.section {
+
+    text-align: justify;
+    padding: 20px 50px;
+    background-color: black;
+    color:white;
+
+}
+
+.ptext {
+
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size:  27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+}
+
+
+
+
 /*Navigation Section */
 
 body {
@@ -14,7 +53,7 @@ body {
 
 }
 
-.TopNav > a {
+.TopNav>a {
 
     float: left;
     color: deeppink;
@@ -24,32 +63,33 @@ body {
     font-size: 17px;
 }
 
-.TopNav > a:hover {
+.TopNav>a:hover {
 
     background-color: blueviolet;
     color: white;
 }
 
-.TopNav > a.active {
+.TopNav>a.active {
 
-background-color: darkcyan;
-color: white;
+    background-color: darkcyan;
+    color: white;
 }
 
 /*Slider Section */
 
-.Carousel-Container{
-
+.carousel-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 300px;
+    /* Adjust based on your image height */
+
 }
 
+/* Hide all slides by default */
 .myslides {
-
     display: none;
     max-height: 100%;
+    /* Ensure images fit within container */
     max-width: 100%;
 }
-
